@@ -2,7 +2,7 @@
   "appId": "com.example.plugin",
   "appName": "example",
   "bundledWebRuntime": false,
-  "webDir": "dist",
+  "webDir": "www",
   "plugins": {
     "SplashScreen": {
       "launchShowDuration": 0

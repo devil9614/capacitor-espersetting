@@ -1,10 +1,12 @@
 import { WebPlugin } from '@capacitor/core';
 
-import type { ExamplePlugin } from './definitions';
+import type { CapacitorEsperSettingPlugin } from './definitions';
 
-export class ExampleWeb extends WebPlugin implements ExamplePlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+export class CapacitorEsperSettingWebPlugin
+  extends WebPlugin
+  implements CapacitorEsperSettingPlugin
+{
+  async launchEsperSettings(): Promise<void> {
+    console.warn('The Esper Settings cannot be launched on the web.');
   }
 }

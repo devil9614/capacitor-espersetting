@@ -1,10 +1,14 @@
 import { registerPlugin } from '@capacitor/core';
 
-import type { ExamplePlugin } from './definitions';
+import type { CapacitorEsperSettingPlugin } from './definitions';
 
-const Example = registerPlugin<ExamplePlugin>('Example', {
-  web: () => import('./web').then(m => new m.ExampleWeb()),
-});
+const CapacitorEsperSetting = registerPlugin<CapacitorEsperSettingPlugin>(
+  'Example',
+  {
+    web: () =>
+      import('./web').then(m => new m.CapacitorEsperSettingWebPlugin()),
+  },
+);
 
 export * from './definitions';
-export { Example };
+export { CapacitorEsperSetting };
