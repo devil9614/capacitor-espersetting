@@ -1,6 +1,6 @@
 {
-  "appId": "com.example.plugin",
-  "appName": "example",
+  "appId": "com.nowpurchase.plugin",
+  "appName": "CapacitorEsperSetting",
   "bundledWebRuntime": false,
   "webDir": "www",
   "plugins": {

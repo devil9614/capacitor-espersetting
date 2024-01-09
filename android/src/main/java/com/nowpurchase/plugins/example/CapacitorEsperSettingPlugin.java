@@ -1,4 +1,4 @@
-package com.nowpurchase.CapacitorEsperSetting;
+package com.nowpurchase.plugins.CapacitorEsperSetting;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -8,7 +8,7 @@ import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
 
 @CapacitorPlugin(name = "CapacitorEsperSetting")
-public class CapacitorEsperSetting extends Plugin {
+public class CapacitorEsperSettingPlugin extends Plugin {
 
     @PluginMethod
     public void launchEsperSettings(PluginCall call) {
